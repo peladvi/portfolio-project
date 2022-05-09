@@ -102,7 +102,9 @@ section {
 .portfolio-pictures img {
   width: 380px;
 }
-
+.portfolio-pictures img:hover {
+  transform: rotateZ(8deg);
+}
 @media (max-width: 768px) {
   .navigation li {
     margin: 5px;
