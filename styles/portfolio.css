@@ -14,8 +14,9 @@ body {
       rgba(113, 160, 165, 0.5)
     ),
     url("data:image/svg+xml,%3Csvg viewBox='0 0 250 250' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='5' numOctaves='1x' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%' height='100%' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  display: block;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 900px;
   opacity: 0.9;
   text-align: center;
 }
@@ -26,8 +27,6 @@ h1 {
 h2 {
   font-family: var(--basic-font);
   font-size: 25px;
-  max-width: 800px;
-  margin: 0 auto;
 }
 p {
   font-family: "Judson", serif;
@@ -45,15 +44,26 @@ ul {
   padding: 0;
 }
 li {
-  padding: 8px 18px;
+  padding: 6px 18px;
   margin: 20px;
   background-color: var(--light-green);
-  border-radius: 20px;
+  border-radius: 18px;
   box-shadow: var(--box-shadow);
-  opacity: 0.9;
+  opacity: 0.7;
+  transition: all 200ms ease-in-out;
+}
+li:hover {
+  background-color: #77628c;
+  opacity: 1;
+  color: #eeeeee;
+}
+a:hover {
+  color: #eeeeee;
 }
 .active {
   background-color: var(--violet);
+  color: #eeeeee;
+  opacity: 1;
 }
 .active a {
   color: #eeeeee;
@@ -62,9 +72,10 @@ li {
   text-align: center;
 }
 .hero img {
-  width: 280px;
+  width: 300px;
 }
-.about-button {
+.about-button,
+.portfolio-button {
   background-color: var(--violet);
   font-family: var(--basic-font);
   font-size: 20px;
@@ -72,27 +83,42 @@ li {
   border-radius: 20px;
   padding: 15px 30px;
   box-shadow: var(--box-shadow);
+  transition: all 200ms ease-in-out;
 }
 .portfolio-button {
   background-color: var(--blue-green);
-  font-family: var(--basic-font);
-  font-size: 20px;
-  color: #eeeeee;
-  border-radius: 20px;
-  padding: 15px 30px;
-  box-shadow: var(--box-shadow);
 }
 .vertical-line {
   margin: 0 auto;
   width: fit-content;
-  border-left: 1px solid black;
-  height: 50px;
+  border-left: 1px solid var(--violet);
+  height: 60px;
 }
-.portfolio-pictures {
-  display: flex;
-  justify-content: center;
-  max-width: 800px;
+section {
+  display: block;
+  margin: 0 auto;
+  max-width: 750px;
 }
 .portfolio-pictures img {
   width: 350px;
+}
+@media (max-width: 768px) {
+  .navigation li {
+    margin: 5px;
+  }
+  h2 {
+    max-width: 750px;
+  }
+}
+@media (max-width: 400px) {
+  .navigation li {
+    margin: 0;
+    max-width: 400px;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 20px;
+  }
 }
