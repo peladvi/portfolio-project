@@ -100,8 +100,9 @@ section {
   max-width: 750px;
 }
 .portfolio-pictures img {
-  width: 350px;
+  width: 380px;
 }
+
 @media (max-width: 768px) {
   .navigation li {
     margin: 5px;
