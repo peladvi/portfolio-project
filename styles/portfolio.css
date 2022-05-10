@@ -63,7 +63,12 @@ a:hover {
 .active a {
   color: #eeeeee;
 }
-
+.vertical-line {
+  margin: 0 auto;
+  width: fit-content;
+  border-left: 1px solid var(--violet);
+  height: 60px;
+}
 @media (max-width: 768px) {
   .navigation li {
     margin: 5px;

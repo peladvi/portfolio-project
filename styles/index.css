@@ -19,13 +19,6 @@
   background-color: var(--blue-green);
 }
 
-.vertical-line {
-  margin: 0 auto;
-  width: fit-content;
-  border-left: 1px solid var(--violet);
-  height: 60px;
-}
-
 .portfolio-pictures img {
   width: 380px;
 }

@@ -5,11 +5,35 @@ p {
 .photo {
   border-radius: 10px;
   width: 400px;
+  box-shadow: var(--box-shadow);
 }
 .education,
 .experience {
-  padding: 15px;
+  padding: 20px;
   background-color: #eeeeee;
   border-radius: 10px;
+  opacity: 0.7;
+  box-shadow: var(--box-shadow);
+}
+.experience {
+  background-color: var(--light-green);
+}
+
+.leaf {
+  display: flex;
+  justify-content: flex-end;
+}
+h2.skills-heading {
+  font-size: 30px;
+  font-family: var(--heading-font);
+  margin-top: -30px;
+}
+.skills {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--blue-green);
   opacity: 0.9;
+  border-radius: 10px;
+  padding: 5px 20px;
+  box-shadow: var(--box-shadow);
 }
