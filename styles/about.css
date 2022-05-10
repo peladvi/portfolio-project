@@ -1,0 +1,15 @@
+p {
+  font-family: var(--basic-font);
+  font-size: 20px;
+}
+.photo {
+  border-radius: 10px;
+  width: 400px;
+}
+.education,
+.experience {
+  padding: 15px;
+  background-color: #eeeeee;
+  border-radius: 10px;
+  opacity: 0.9;
+}

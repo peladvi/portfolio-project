@@ -1,0 +1,34 @@
+.hero {
+  text-align: center;
+}
+.hero img {
+  width: 300px;
+}
+.about-button,
+.portfolio-button {
+  background-color: var(--violet);
+  font-family: var(--basic-font);
+  font-size: 20px;
+  color: #eeeeee;
+  border-radius: 20px;
+  padding: 15px 30px;
+  box-shadow: var(--box-shadow);
+  transition: all 200ms ease-in-out;
+}
+.portfolio-button {
+  background-color: var(--blue-green);
+}
+
+.vertical-line {
+  margin: 0 auto;
+  width: fit-content;
+  border-left: 1px solid var(--violet);
+  height: 60px;
+}
+
+.portfolio-pictures img {
+  width: 380px;
+}
+.portfolio-pictures img:hover {
+  transform: rotateZ(8deg);
+}
