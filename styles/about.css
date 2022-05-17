@@ -33,9 +33,9 @@ h2.skills-heading {
 }
 .skills span {
   font-family: var(--basic-font);
-  font-size: 20px;
-  padding: 5px 10px;
-  margin: 5px;
+  font-size: 18px;
+  padding: 5px 8px;
+  margin: 4px;
   border-radius: 10px;
   background-color: #eeeeee;
   box-shadow: var(--box-shadow);
@@ -48,9 +48,8 @@ h2.skills-heading {
   opacity: 0.9;
 }
 .skills img {
-  width: 20px;
-  margin-left: 2px;
-  filter: grayscale(100%);
+  width: 18px;
+  margin-left: 1px;
 }
 @media (max-width: 400px) {
   h2.skills-heading {
