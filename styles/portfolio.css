@@ -90,3 +90,27 @@ a:hover {
     font-size: 20px;
   }
 }
+
+footer .social-links a {
+  text-decoration: none;
+  font-size: 18px;
+  margin: 14px;
+  color: var(--violet);
+  background-color: #eeeeee;
+  padding: 8px 12px;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+
+footer .social-links a:hover {
+  background-color: var(--violet);
+  color: #eeeeee;
+}
+footer .email {
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--violet);
+}
+footer .email:hover {
+  color: black;
+}
