@@ -25,6 +25,7 @@ h1 {
 h2 {
   font-family: var(--basic-font);
   font-size: 25px;
+  line-height: 1.25;
 }
 
 .navigation a {

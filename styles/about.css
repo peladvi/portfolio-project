@@ -27,29 +27,33 @@ h2.skills-heading {
   font-size: 35px;
   font-family: var(--heading-font);
 }
-
-.skills,
-.skills-icons {
-  padding: 5px;
-  border-radius: 10px;
-  border: 10px solid var(--blue-green);
-  box-shadow: var(--box-shadow);
-  max-width: 350px;
-  display: block;
-  margin: 0 auto;
+.skills {
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .skills span {
   font-family: var(--basic-font);
   font-size: 20px;
   padding: 5px 10px;
-  margin: 10px;
+  margin: 5px;
   border-radius: 10px;
   background-color: #eeeeee;
   box-shadow: var(--box-shadow);
   opacity: 0.8;
+  transition: all 200ms ease-in-out;
 }
-
-.skills-icons img {
-  width: 60px;
-  margin: 5px;
+.skills span:hover {
+  background-color: var(--violet);
+  color: #eeeeee;
+  opacity: 0.9;
+}
+.skills img {
+  width: 20px;
+  margin-left: 2px;
+  filter: grayscale(100%);
+}
+@media (max-width: 400px) {
+  h2.skills-heading {
+    font-size: 25px;
+  }
 }
