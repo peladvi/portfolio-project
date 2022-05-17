@@ -1,0 +1,33 @@
+.basic,
+.advanced,
+.react {
+  border-radius: 15px;
+  background-color: #eeeeee;
+}
+.basic img {
+  width: 270px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+}
+.advanced img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+}
+
+.react img {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+}
+.btn {
+  vertical-align: middle;
+  text-align: center;
+  background-color: var(--violet);
+  font-family: var(--basic-font);
+  color: #eeeeee;
+  border-radius: 10px;
+  padding: 10px 15px;
+  box-shadow: var(--box-shadow);
+  transition: all 200ms ease-in-out;
+}

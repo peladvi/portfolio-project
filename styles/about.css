@@ -25,7 +25,6 @@ p {
 }
 h2.skills-heading {
   font-size: 35px;
-  font-family: var(--heading-font);
 }
 .skills {
   justify-content: space-evenly;

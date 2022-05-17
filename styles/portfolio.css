@@ -23,7 +23,7 @@ h1 {
   font-size: 50px;
 }
 h2 {
-  font-family: var(--basic-font);
+  font-family: var(--heading-font);
   font-size: 25px;
   line-height: 1.25;
 }

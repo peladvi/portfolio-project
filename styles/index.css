@@ -4,6 +4,9 @@
 .hero img {
   width: 280px;
 }
+.hero h2 {
+  font-family: var(--basic-font);
+}
 .about-button,
 .portfolio-button {
   background-color: var(--violet);
