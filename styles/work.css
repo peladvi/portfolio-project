@@ -1,8 +1,11 @@
 .basic,
 .advanced,
-.react {
+.react,
+.dictionary {
   border-radius: 15px;
   background-color: #eeeeee;
+  margin: 10px;
+  box-shadow: var(--box-shadow);
 }
 .basic img {
   width: 270px;
@@ -16,7 +19,12 @@
 }
 
 .react img {
-  width: 200px;
+  width: 190px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+}
+.dictionary img {
+  width: 280px;
   border-radius: 10px;
   box-shadow: var(--box-shadow);
 }
