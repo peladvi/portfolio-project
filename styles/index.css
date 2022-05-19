@@ -33,4 +33,5 @@
 }
 .portfolio-pictures img:hover {
   transform: rotateZ(8deg);
+  cursor: pointer;
 }
