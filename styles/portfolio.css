@@ -99,21 +99,12 @@ footer .social-links a {
   background-color: #eeeeee;
   padding: 8px 12px;
   border-radius: 50%;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 footer .social-links a:hover {
   background-color: var(--violet);
   color: #eeeeee;
-}
-footer .email {
-  text-decoration: none;
-  font-size: 18px;
-  color: var(--violet);
-  font-family: var(--basic-font);
-}
-footer .email:hover {
-  color: black;
 }
 
 .contact-details {
@@ -122,7 +113,7 @@ footer .email:hover {
 .contact-details p {
   font-size: 24px;
   font-family: var(--basic-font);
-  background: linear-gradient(30deg, #77628c 0%, #acc6aa 100%);
+  background: linear-gradient(25deg, #acc6aa 0%, #77628c 100%);
   border-radius: 15px;
   margin: 15px;
   padding: 6px 10px;
@@ -145,4 +136,8 @@ footer .email:hover {
   .contact-details p {
     font-size: 20px;
   }
+}
+.peladvi {
+  text-decoration: none;
+  color: var(--violet);
 }
