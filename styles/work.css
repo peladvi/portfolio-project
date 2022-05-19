@@ -39,3 +39,7 @@
   box-shadow: var(--box-shadow);
   transition: all 200ms ease-in-out;
 }
+.peladvi {
+  text-decoration: none;
+  color: var(--violet);
+}

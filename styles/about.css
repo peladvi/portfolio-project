@@ -52,3 +52,7 @@ h2.skills-heading {
     font-size: 25px;
   }
 }
+.peladvi {
+  text-decoration: none;
+  color: var(--violet);
+}

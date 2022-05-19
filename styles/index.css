@@ -35,3 +35,7 @@
   transform: rotateZ(8deg);
   cursor: pointer;
 }
+.peladvi {
+  text-decoration: none;
+  color: var(--violet);
+}
