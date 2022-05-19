@@ -13,7 +13,7 @@ body {
       rgba(172, 198, 170, 0.5),
       rgba(113, 160, 165, 0.5)
     ),
-    url("data:image/svg+xml,%3Csvg viewBox='0 0 250 250' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='20' numOctaves='1x' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%' height='100%' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    url("/images/noise.svg");
   display: block;
   margin: 0 auto;
   max-width: 900px;
@@ -110,7 +110,31 @@ footer .email {
   text-decoration: none;
   font-size: 18px;
   color: var(--violet);
+  font-family: var(--basic-font);
 }
 footer .email:hover {
   color: black;
+}
+.contact-details {
+  margin-top: 100px;
+}
+.contact-details p {
+  font-size: 24px;
+  font-family: var(--basic-font);
+  background-color: #eeeeee;
+  border-radius: 15px;
+  margin: 20px;
+  padding: 4px 10px;
+  opacity: 0.9;
+}
+
+.contact-details div {
+  flex-direction: column;
+  flex-wrap: wrap;
+  line-height: 1.25;
+}
+@media (max-width: 400px) {
+  .contact-details {
+    margin-top: 10px;
+  }
 }
