@@ -19,10 +19,6 @@ p {
   background-color: var(--light-green);
 }
 
-.leaf {
-  display: flex;
-  justify-content: flex-end;
-}
 h2.skills-heading {
   font-size: 35px;
 }
@@ -45,6 +41,7 @@ h2.skills-heading {
   background-color: var(--violet);
   color: #eeeeee;
   opacity: 0.9;
+  cursor: pointer;
 }
 .skills img {
   width: 18px;
