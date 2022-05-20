@@ -39,6 +39,10 @@
   box-shadow: var(--box-shadow);
   transition: all 200ms ease-in-out;
 }
+.btn:hover {
+  color: #eeeeee;
+  background: linear-gradient(45deg, var(--violet) 0%, var(--blue-green) 100%);
+}
 .peladvi {
   text-decoration: none;
   color: var(--violet);

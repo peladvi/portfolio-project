@@ -23,10 +23,10 @@
 }
 
 .about-button:hover {
-  background: linear-gradient(45deg, #77628c 0%, #71a0a5 100%);
+  background: linear-gradient(45deg, var(--violet) 0%, var(--blue-green) 100%);
 }
 .portfolio-button:hover {
-  background: linear-gradient(45deg, #71a0a5 0%, #77628c 100%);
+  background: linear-gradient(45deg, var(--blue-green) 0%, var(--violet) 100%);
 }
 .portfolio-pictures img {
   width: 380px;

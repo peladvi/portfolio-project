@@ -1,0 +1,36 @@
+.contact-details {
+  margin-top: 100px;
+}
+.contact-details p {
+  font-size: 24px;
+  font-family: var(--basic-font);
+  background: linear-gradient(25deg, var(--light-green) 0%, var(--violet) 100%);
+  border-radius: 15px;
+  margin: 15px;
+  padding: 6px 10px;
+  opacity: 0.9;
+  transition: all 300ms ease-in-out;
+}
+.contact-details p:hover {
+  background: linear-gradient(25deg, var(--violet) 0%, var(--light-green) 100%);
+  cursor: pointer;
+}
+.contact-details div {
+  flex-direction: column;
+  flex-wrap: wrap;
+  line-height: 1;
+}
+@media (max-width: 400px) {
+  .contact-details {
+    margin-top: 10px;
+  }
+  .contact-details p {
+    font-size: 20px;
+  }
+}
+footer .peladvi {
+  color: var(--violet);
+}
+footer .peladvi:hover {
+  color: #eeeeee;
+}
