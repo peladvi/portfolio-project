@@ -10,6 +10,7 @@
   padding: 6px 10px;
   opacity: 0.9;
   transition: all 300ms ease-in-out;
+  box-shadow: var(--box-shadow);
 }
 .contact-details p:hover {
   background: linear-gradient(25deg, var(--violet) 0%, var(--light-green) 100%);
